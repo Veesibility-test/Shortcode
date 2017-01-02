@@ -6,4 +6,4 @@ function vee_currentYear( $atts ){
   return date('Y');
   }
 
-add_shortcode( 'year', 'vee_currentYear' );
+add_shortcode( 'vee_year', 'vee_currentYear' );
